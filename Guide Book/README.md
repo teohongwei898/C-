@@ -12,5 +12,8 @@
 4. If and ElseIf	
 5. While Loops	
 6. For Loops
+7. Jump Statements	
+8. Switch	
+9. Function
 
 #### Cheers!
