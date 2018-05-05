@@ -6,6 +6,6 @@
 
 #### Below are the contents of my guidebook available at this time frame/period : 05/05/2018
 
-1. Constants
+1. Assignment and Operators
 
 #### Cheers!
