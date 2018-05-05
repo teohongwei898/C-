@@ -1,0 +1,26 @@
+THIS WILL NOT COMPILE. FOR REFERENCE ONLY.
+
+
+!(5 == 5) // evaluates to false because the expression at its right (5 == 5) is true.
+!(6 <= 4) // evaluates to true because (6 <= 4) would be false.
+!true // evaluates to false
+!false // evaluates to true. 
+
+7==5 ? 4 : 3 // returns 3, since 7 is not equal to 5.
+7==5+2 ? 4 : 3 // returns 4, since 7 is equal to 5+2.
+5>3 ? a : b // returns the value of a, since 5 is greater than 3.
+a>b ? a : b // returns whichever is greater, a or b. 
+
+For example,
+
+// conditional operator
+#include <iostream>
+using namespace std;
+int main ()
+{
+ int a,b,c;
+ a=2;
+ b=7;
+ c = (a>b) ? a : b;
+ cout << c;
+ return
