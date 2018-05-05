@@ -1,0 +1,28 @@
+The for loop
+Its format is:
+for (initialization; condition; increase) statement;
+------------------------------------------------------------------------------------------------------------------
+It's main function is to repeat statement while condition remains true, like the while loop. But in addition, the
+for loop provides specific locations to contain an initialization statement and an increase statement. So this
+loop is specially designed to perform a repetitive action with a counter which is initialized and increased on each
+iteration.
+-------------------------------------
+It works in the following way:
+1. initialization is executed. Generally it is an initial value setting for a counter variable. This is executed
+only once.
+2. condition is checked. If it is true the loop continues, otherwise the loop ends and statement is skipped
+(not executed).
+3. statement is executed. As usual, it can be either a single statement or a block enclosed in braces { }.
+4. finally, whatever is specified in the increase field is executed and the loop gets back to step 2.
+------------------------------------------------
+#include <iostream>
+using namespace std;
+int main ()
+{
+ for (int n=10; n>0; n--) {
+ cout << n << ", ";
+ }
+ cout << "FIRE!\n";
+ return 0;
+}
+
