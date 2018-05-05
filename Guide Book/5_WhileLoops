@@ -1,0 +1,36 @@
+The while loop
+Its format is:
+while (expression) statement
+and its functionality is simply to repeat statement while the condition set in expression is true.
+--------------------------------------------------------------------------------------
+#include <iostream>
+using namespace std;
+int main ()
+{
+ int n;
+ cout << "Enter the starting number > ";
+ cin >> n;
+ while (n>0) {
+ cout << n << ", ";
+ --n;
+ }
+ cout << "FIRE!\n";
+ return 0;
+}
+----------------------------------------------------------------------------------------------------------------
+When the program starts the user is prompted to insert a number for the countdown. Then the while loop
+begins, if the value entered by the user fulfills the condition n>0 (that n is greater than zero) the block that follows
+the condition will be executed and repeated while the condition (n>0) remains being true.
+The whole process of the previous program can be interpreted according to the following script (beginning in
+main): 
+1. User assigns a value to n
+2. The while condition is checked (n>0). At this point there are two posibilities:
+* condition is true: statement is executed (to step 3)
+* condition is false: ignore statement and continue after it (to step 5)
+3. Execute statement:
+cout << n << ", ";
+--n;
+(prints the value of n on the screen and decreases n by 1)
+4. End of block. Return automatically to step 2
+5. Continue the program right after the block: print FIRE! and end program.
+-----------------------------------------------------------------------------------------------------
