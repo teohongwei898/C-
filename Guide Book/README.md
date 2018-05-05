@@ -7,5 +7,10 @@
 #### Below are the contents of my guidebook available at this time frame/period : 05/05/2018
 
 1. Assignment and Operators
+2. Conditional Operators
+3. Inputs and Outputs	
+4. If and ElseIf	
+5. While Loops	
+6. For Loops
 
 #### Cheers!
