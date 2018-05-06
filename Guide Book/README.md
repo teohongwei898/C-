@@ -15,5 +15,7 @@
 7. Jump Statements	
 8. Switch	
 9. Function
+10. Arrays
+11. Pointers
 
 #### Cheers!
