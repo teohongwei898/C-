@@ -1,0 +1,30 @@
+beth = ted; // beth equal to ted 
+beth = *ted; // beth equal to value pointed by ted 
+--------------
+type * name;
+where type is the data type of the value that the pointer is intended to point to. This type is not the type of the
+pointer itself! but the type of the data the pointer points to. For example:
+-------------------------
+int * number;
+char * character;
+float * greatnumber;
+-------------------
+// my first pointer
+#include <iostream>
+using namespace std;
+int main ()
+{
+ int firstvalue, secondvalue;
+ int * mypointer;
+ mypointer = &firstvalue;   //address of 1st value equals to mypointer
+ *mypointer = 10;           //pointer of mypointer = 10
+ mypointer = &secondvalue;  //address of 2nd value equals to mypointer
+ *mypointer = 20;
+ cout << "firstvalue is " << firstvalue << endl;
+ cout << "secondvalue is " << secondvalue << endl;
+ return 0;
+} 
+---------------
+firstvalue is 10
+secondvalue is 20 
+
