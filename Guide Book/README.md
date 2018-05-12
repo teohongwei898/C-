@@ -17,5 +17,6 @@
 9. Function
 10. Arrays
 11. Pointers
+12. Classes (I)
 
 #### Cheers!
